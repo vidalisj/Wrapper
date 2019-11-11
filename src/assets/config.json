@@ -1,0 +1,34 @@
+{
+    "title":"Org-Suite",
+    "base":"http://localhost:5355/SemossWeb/#!/",
+    "pages":[
+        {
+            "title":"Home",
+            "subpages":[],
+            "icon":"faHome",
+            "type":"multi",
+            "databaseID":"b56f3ef8-8f40-4580-8d6b-2723f9e7dd16",
+            "insightID": "97a97332-b932-4962-9e46-a1b41881f932"
+        },
+        {
+            "title":"Page 1",
+            "type":"Dashboard",
+            "icon":"faBars",
+            "type":"multi",
+            "databaseID":"b56f3ef8-8f40-4580-8d6b-2723f9e7dd16",
+            "insightID": "e309fe2c-4f46-4884-9277-7a54aef9b5a4",
+            "subpages":[
+                {
+                    "title":"SubPage 1",
+                    "type":"Dashboard",
+                    "icon":"faChartLine"
+                },
+                {
+                    "title":"SubPage 2",
+                    "type":"Dashboard",
+                    "icon":"faChartLine"
+                }
+            ]
+        }
+    ]
+}
